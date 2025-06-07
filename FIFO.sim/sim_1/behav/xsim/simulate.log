@@ -1,0 +1,63 @@
+Time resolution is 1 ps
+Starting FIFO testbench...
+Time=0 | clk=0 reset=1 w_enb=0 r_enb=0 din=0000 dout=0000 full=0 empty=1
+Time=5000 | clk=1 reset=1 w_enb=0 r_enb=0 din=0000 dout=0000 full=0 empty=1
+Time=10000 | clk=0 reset=1 w_enb=0 r_enb=0 din=0000 dout=0000 full=0 empty=1
+Time=15000 | clk=1 reset=0 w_enb=0 r_enb=0 din=0000 dout=0000 full=0 empty=1
+Time=20000 | clk=0 reset=0 w_enb=0 r_enb=0 din=0000 dout=0000 full=0 empty=1
+
+--- Write Test ---
+Time=25000 | clk=1 reset=0 w_enb=1 r_enb=0 din=3524 dout=0000 full=0 empty=0
+Time=30000 | clk=0 reset=0 w_enb=1 r_enb=0 din=3524 dout=0000 full=0 empty=0
+Time=35000 | clk=1 reset=0 w_enb=1 r_enb=0 din=5e81 dout=0000 full=0 empty=0
+Time=40000 | clk=0 reset=0 w_enb=1 r_enb=0 din=5e81 dout=0000 full=0 empty=0
+Time=45000 | clk=1 reset=0 w_enb=1 r_enb=0 din=d609 dout=0000 full=0 empty=0
+Time=50000 | clk=0 reset=0 w_enb=1 r_enb=0 din=d609 dout=0000 full=0 empty=0
+Time=55000 | clk=1 reset=0 w_enb=1 r_enb=0 din=5663 dout=0000 full=0 empty=0
+Time=60000 | clk=0 reset=0 w_enb=1 r_enb=0 din=5663 dout=0000 full=0 empty=0
+Time=65000 | clk=1 reset=0 w_enb=1 r_enb=0 din=7b0d dout=0000 full=0 empty=0
+Time=70000 | clk=0 reset=0 w_enb=1 r_enb=0 din=7b0d dout=0000 full=0 empty=0
+Time=75000 | clk=1 reset=0 w_enb=1 r_enb=0 din=998d dout=0000 full=0 empty=0
+Time=80000 | clk=0 reset=0 w_enb=1 r_enb=0 din=998d dout=0000 full=0 empty=0
+Time=85000 | clk=1 reset=0 w_enb=1 r_enb=0 din=8465 dout=0000 full=0 empty=0
+Time=90000 | clk=0 reset=0 w_enb=1 r_enb=0 din=8465 dout=0000 full=0 empty=0
+Time=95000 | clk=1 reset=0 w_enb=1 r_enb=0 din=5212 dout=0000 full=1 empty=0
+Time=100000 | clk=0 reset=0 w_enb=1 r_enb=0 din=5212 dout=0000 full=1 empty=0
+
+--- Overflow Test ---
+Time=105000 | clk=1 reset=0 w_enb=0 r_enb=0 din=5212 dout=0000 full=1 empty=0
+Time=110000 | clk=0 reset=0 w_enb=0 r_enb=0 din=5212 dout=0000 full=1 empty=0
+Time=115000 | clk=1 reset=0 w_enb=1 r_enb=0 din=e301 dout=0000 full=1 empty=0
+Time=120000 | clk=0 reset=0 w_enb=1 r_enb=0 din=e301 dout=0000 full=1 empty=0
+
+--- Read Test ---
+Time=125000 | clk=1 reset=0 w_enb=0 r_enb=0 din=cd0d dout=0000 full=1 empty=0
+Time=130000 | clk=0 reset=0 w_enb=0 r_enb=0 din=cd0d dout=0000 full=1 empty=0
+Time=135000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=3524 full=0 empty=0
+Time=140000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=3524 full=0 empty=0
+Time=145000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5e81 full=0 empty=0
+Time=150000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5e81 full=0 empty=0
+Time=155000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=d609 full=0 empty=0
+Time=160000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=d609 full=0 empty=0
+Time=165000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5663 full=0 empty=0
+Time=170000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5663 full=0 empty=0
+Time=175000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=7b0d full=0 empty=0
+Time=180000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=7b0d full=0 empty=0
+Time=185000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=998d full=0 empty=0
+Time=190000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=998d full=0 empty=0
+Time=195000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=8465 full=0 empty=0
+Time=200000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=8465 full=0 empty=0
+Time=205000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5212 full=0 empty=1
+Time=210000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5212 full=0 empty=1
+
+--- Underflow Test ---
+Time=215000 | clk=1 reset=0 w_enb=0 r_enb=0 din=cd0d dout=5212 full=0 empty=1
+Time=220000 | clk=0 reset=0 w_enb=0 r_enb=0 din=cd0d dout=5212 full=0 empty=1
+Time=225000 | clk=1 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5212 full=0 empty=1
+Time=230000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5212 full=0 empty=1
+
+--- Simultaneous Read/Write Test ---
+Time=235000 | clk=1 reset=0 w_enb=0 r_enb=0 din=cd0d dout=5212 full=0 empty=1
+Time=240000 | clk=0 reset=0 w_enb=0 r_enb=0 din=cd0d dout=5212 full=0 empty=1
+Time=245000 | clk=1 reset=0 w_enb=1 r_enb=1 din=f176 dout=5212 full=0 empty=0
+Time=250000 | clk=0 reset=0 w_enb=1 r_enb=1 di
