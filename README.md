@@ -89,6 +89,10 @@ This FIFO design was created with modularity, scalability, and correctness in mi
 
 Simulation waveforms are saved in `sim/`.
 
+📜 Documentation
+For detailed design specifications, block diagrams, and testbench results:
+🔗 Download Project PDF
+
 ---
 
 ## 🛠️ Technologies Used
@@ -99,6 +103,4 @@ Simulation waveforms are saved in `sim/`.
 - 🧪 Manual Testbench – No UVM or formal verification
 
 ---
-📜 Documentation
-For detailed design specifications, block diagrams, and testbench results:
-🔗 Download Project PDF
+
