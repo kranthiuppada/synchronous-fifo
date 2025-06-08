@@ -104,4 +104,25 @@ For detailed design specifications, block diagrams, waveforms and testbench resu
 - 🧪 Manual Testbench – No UVM or formal verification
 
 ---
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).  
+
+
+---
+
+## 👩‍💻 Author
+
+**Kranthi Uppada**  
+B.Tech ECE | Digital Design Enthusiast  
+[GitHub Profile](https://github.com/kranthiuppada)
+
+---
+
+
+
+Thank you for viewing this project.  
+
 
