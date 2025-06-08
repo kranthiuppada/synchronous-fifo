@@ -1,0 +1,40 @@
+# Ignore simulation output files
+*.vcd
+*.out
+*.log
+*.gtkw
+*.fst
+*.bin
+*.dump
+*.sav
+*.wlf
+*.jou
+*.pb
+*.tmp
+*.bak
+*.vvp
+*.verdi*
+*.syn*
+
+# Ignore Vivado or other tool-generated folders
+.sim/
+.simv*
+.simvision/
+.vivado/
+.work/
+.cache/
+.hw/
+.ip_user_files/
+.xpr
+.xgui/
+*.xilinx*
+.project/
+*.DS_Store
+
+# Ignore Windows thumbnail/cache files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore VS Code settings
+.vscode/
