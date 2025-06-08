@@ -60,4 +60,55 @@ Time=230000 | clk=0 reset=0 w_enb=0 r_enb=1 din=cd0d dout=5212 full=0 empty=1
 Time=235000 | clk=1 reset=0 w_enb=0 r_enb=0 din=cd0d dout=5212 full=0 empty=1
 Time=240000 | clk=0 reset=0 w_enb=0 r_enb=0 din=cd0d dout=5212 full=0 empty=1
 Time=245000 | clk=1 reset=0 w_enb=1 r_enb=1 din=f176 dout=5212 full=0 empty=0
-Time=250000 | clk=0 reset=0 w_enb=1 r_enb=1 di
+Time=250000 | clk=0 reset=0 w_enb=1 r_enb=1 din=f176 dout=5212 full=0 empty=0
+Time=255000 | clk=1 reset=0 w_enb=1 r_enb=1 din=cd3d dout=f176 full=0 empty=0
+Time=260000 | clk=0 reset=0 w_enb=1 r_enb=1 din=cd3d dout=f176 full=0 empty=0
+Time=265000 | clk=1 reset=0 w_enb=1 r_enb=1 din=57ed dout=cd3d full=0 empty=0
+Time=270000 | clk=0 reset=0 w_enb=1 r_enb=1 din=57ed dout=cd3d full=0 empty=0
+
+--- Alternating Read/Write Test ---
+Time=275000 | clk=1 reset=0 w_enb=0 r_enb=0 din=f78c dout=cd3d full=0 empty=0
+Time=280000 | clk=0 reset=0 w_enb=0 r_enb=0 din=f78c dout=cd3d full=0 empty=0
+Time=285000 | clk=1 reset=0 w_enb=1 r_enb=0 din=e9f9 dout=cd3d full=0 empty=0
+Time=290000 | clk=0 reset=0 w_enb=1 r_enb=0 din=e9f9 dout=cd3d full=0 empty=0
+Time=295000 | clk=1 reset=0 w_enb=0 r_enb=1 din=e9f9 dout=57ed full=0 empty=0
+Time=300000 | clk=0 reset=0 w_enb=0 r_enb=1 din=e9f9 dout=57ed full=0 empty=0
+Time=305000 | clk=1 reset=0 w_enb=1 r_enb=0 din=24c6 dout=57ed full=0 empty=0
+Time=310000 | clk=0 reset=0 w_enb=1 r_enb=0 din=24c6 dout=57ed full=0 empty=0
+Time=315000 | clk=1 reset=0 w_enb=0 r_enb=1 din=24c6 dout=e9f9 full=0 empty=0
+Time=320000 | clk=0 reset=0 w_enb=0 r_enb=1 din=24c6 dout=e9f9 full=0 empty=0
+Time=325000 | clk=1 reset=0 w_enb=1 r_enb=0 din=84c5 dout=e9f9 full=0 empty=0
+Time=330000 | clk=0 reset=0 w_enb=1 r_enb=0 din=84c5 dout=e9f9 full=0 empty=0
+Time=335000 | clk=1 reset=0 w_enb=0 r_enb=1 din=84c5 dout=24c6 full=0 empty=0
+Time=340000 | clk=0 reset=0 w_enb=0 r_enb=1 din=84c5 dout=24c6 full=0 empty=0
+Time=345000 | clk=1 reset=0 w_enb=1 r_enb=0 din=d2aa dout=24c6 full=0 empty=0
+Time=350000 | clk=0 reset=0 w_enb=1 r_enb=0 din=d2aa dout=24c6 full=0 empty=0
+Time=355000 | clk=1 reset=0 w_enb=0 r_enb=1 din=d2aa dout=84c5 full=0 empty=0
+Time=360000 | clk=0 reset=0 w_enb=0 r_enb=1 din=d2aa dout=84c5 full=0 empty=0
+Time=365000 | clk=1 reset=0 w_enb=1 r_enb=0 din=f7e5 dout=84c5 full=0 empty=0
+Time=370000 | clk=0 reset=0 w_enb=1 r_enb=0 din=f7e5 dout=84c5 full=0 empty=0
+Time=375000 | clk=1 reset=0 w_enb=0 r_enb=1 din=f7e5 dout=d2aa full=0 empty=0
+Time=380000 | clk=0 reset=0 w_enb=0 r_enb=1 din=f7e5 dout=d2aa full=0 empty=0
+Time=385000 | clk=1 reset=0 w_enb=1 r_enb=0 din=7277 dout=d2aa full=0 empty=0
+Time=390000 | clk=0 reset=0 w_enb=1 r_enb=0 din=7277 dout=d2aa full=0 empty=0
+Time=395000 | clk=1 reset=0 w_enb=0 r_enb=1 din=7277 dout=f7e5 full=0 empty=0
+Time=400000 | clk=0 reset=0 w_enb=0 r_enb=1 din=7277 dout=f7e5 full=0 empty=0
+Time=405000 | clk=1 reset=0 w_enb=1 r_enb=0 din=d612 dout=f7e5 full=0 empty=0
+Time=410000 | clk=0 reset=0 w_enb=1 r_enb=0 din=d612 dout=f7e5 full=0 empty=0
+Time=415000 | clk=1 reset=0 w_enb=0 r_enb=1 din=d612 dout=7277 full=0 empty=0
+Time=420000 | clk=0 reset=0 w_enb=0 r_enb=1 din=d612 dout=7277 full=0 empty=0
+Time=425000 | clk=1 reset=0 w_enb=1 r_enb=0 din=db8f dout=7277 full=0 empty=0
+Time=430000 | clk=0 reset=0 w_enb=1 r_enb=0 din=db8f dout=7277 full=0 empty=0
+
+Testbench completed.
+Time=435000 | clk=1 reset=0 w_enb=0 r_enb=1 din=db8f dout=d612 full=0 empty=0
+Time=440000 | clk=0 reset=0 w_enb=0 r_enb=1 din=db8f dout=d612 full=0 empty=0
+Time=445000 | clk=1 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+Time=450000 | clk=0 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+Time=455000 | clk=1 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+Time=460000 | clk=0 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+Time=465000 | clk=1 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+Time=470000 | clk=0 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+Time=475000 | clk=1 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+Time=480000 | clk=0 reset=0 w_enb=0 r_enb=1 din=db8f dout=db8f full=0 empty=1
+$finish called at time : 485 ns : File "C:/Users/Kranthi Uppada/FIFO/FIFO.srcs/sim_1/new/sync_fifo_tb.v" Line 115
